@@ -1,7 +1,7 @@
 ## :page_with_curl: Projeto
 
 <LINKEDIN>
-Trabalhando com API Routes no Next.js
+Trabalhando com API Routes no Next.js e Planetscale
 
 Mas o que é API Routes?
 </LINKEDIN>
