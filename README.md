@@ -34,6 +34,7 @@ chamada vitess, essa ferramenta que roda por baixo dos panos facilita a escalabi
 <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white" alt="TypeScript"> </a>
 <a href="https://nextjs.org/" target="_blank"> <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=vercel&logoColor=white" alt="Next"> </a>
 <a href="https://planetscale.com/" target="_blank"> <img src="https://img.shields.io/badge/-Planetscale-F35815?style=flat-square&logo=planetscale&logoColor=white" alt="Planetscale"> </a>
+<a href="https://www.prisma.io/" target="_blank"> <img src="https://img.shields.io/badge/-Prisma-3368FF?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"> </a>
 
 ## 💻 Autor
 
