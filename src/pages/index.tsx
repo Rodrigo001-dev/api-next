@@ -3,8 +3,14 @@ import { GetStaticProps } from "next";
 import { getUsers } from "../lib/user";
 
 export default function Home() {
+  function fetchUsers() {
+    fetch('/api/users')
+      .then(response => response.json())
+      .then(data => console.log(data))
+  };
+
   return (
-    <h1>Hello World</h1>
+    <button onClick={fetchUsers}>Buscar</button>
   )
 }
 
