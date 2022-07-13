@@ -1,13 +1,15 @@
 import { PrismaClient } from '@prisma/client';
 import { NextApiRequest, NextApiResponse } from "../../../../node_modules/next/dist/shared/lib/utils";
 
+import { getUsers } from '../../../lib/user';
+
 const prisma = new PrismaClient();
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;
 
   if (method === "GET") {
-    const users = await prisma.user.findMany();
+    const users = await getUsers();
 
     return res.status(200).json({
       data: users,
