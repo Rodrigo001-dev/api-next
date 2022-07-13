@@ -28,6 +28,9 @@ Sim, pode porque vai estar tudo em uma única aplicação, mas existem projetos 
 
 Utilizando o Planetscale, que é um serviço que utiliza uma biblioteca/ferramenta
 chamada vitess, essa ferramenta que roda por baixo dos panos facilita a escalabilidade de bancos MySQL.
+O Planetscale integra, cria na estrutura do banco de dados algo muito parecido com o que temos no github, que é o funcionamento de branches, ou seja, com isso eu posso ter várias versões do banco de dados dentro do planetscale. A branche funciona como um banco isolado com uma estrutura própria, uma coisa muito interessante das branches é que eu consigo promover a atualização de uma branche para outra.
+
+Ex: a branche main geralmente é a branche de produção, eu posso ter uma branche de desenvolvimento e fazer todas as alterações nela e se eu quiser colocar isso em produção, eu só promovo a branche de desenvolvimento para a de produção(main), assim como é feito em um repositório do github, ou seja, eu não preciso executar tudo que eu já tinha executado em desenvolvimento de novo.
 
 ## 🚀 Tecnologias/Bibliotecas utilizadas
 
